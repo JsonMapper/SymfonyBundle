@@ -1,4 +1,4 @@
-![Logo](https://jsonmapper.github.io/JsonMapper/images/jsonmapper.png)
+![Logo](https://jsonmapper.net/images/jsonmapper.png)
 ---
 **This is a Symfony bundle for using JsonMapper in you Symfony application.** 
 
