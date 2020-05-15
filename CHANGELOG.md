@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-05-15
+### Added 
+- Support Symfony 4.4 (PR#1)
+### Fixed
+- Composer scripts now work on Windows. (PR#1)
+
 ## [1.0.0] - 2020-04-30
 ### Added
 - Add initial bundle and DI extension
