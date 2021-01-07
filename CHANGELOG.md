@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0]
+## Changed
+- Update to version ^2.0 JsonMapper 
+
 ## [1.1.1] - 2020-09-10
 ### Fixed
 - Resolve CVE-2020-15094
