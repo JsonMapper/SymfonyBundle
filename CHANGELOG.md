@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2021-01-28
+### Changed 
+- Migrate to GitHub actions [PR#5](https://github.com/JsonMapper/SymfonyBundle/pull/5)
+
 ## [2.0.0]
 ## Changed
 - Update to version ^2.0 JsonMapper 

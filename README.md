@@ -8,7 +8,7 @@ For more information see the project website: https://jsonmapper.net
 ![GitHub](https://img.shields.io/github/license/JsonMapper/SymfonyBundle)
 ![Packagist Version](https://img.shields.io/packagist/v/json-mapper/symfony-bundle)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/json-mapper/symfony-bundle)
-[![Build Status](https://api.travis-ci.com/JsonMapper/SymfonyBundle.svg?branch=master)](https://travis-ci.com/JsonMapper/SymfonyBundle) 
+![Build](https://github.com/JsonMapper/SymfonyBundle/workflows/Build/badge.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/JsonMapper/SymfonyBundle/badge.svg?branch=master)](https://coveralls.io/github/JsonMapper/SymfonyBundle?branch=master)
 
 # Why use JsonMapper
