@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2022-01-16
+### Added
+- Support for Symfony 6 has been added [PR#5](https://github.com/JsonMapper/SymfonyBundle/pull/5) Thanks to [robiningelbrecht](https://github.com/robiningelbrecht) for reporting the issue
+
 ## [2.1.0] - 2021-01-28
 ### Changed 
 - Migrate to GitHub actions [PR#5](https://github.com/JsonMapper/SymfonyBundle/pull/5)
