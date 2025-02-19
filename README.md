@@ -1,4 +1,8 @@
-![Logo](https://jsonmapper.net/images/jsonmapper.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://jsonmapper.net/images/jsonmapper-light.png">
+  <img alt="JsonMapper logo" src="https://jsonmapper.net/images/jsonmapper.png">
+</picture>
+
 ---
 **This is a Symfony bundle for using JsonMapper in you Symfony application.** 
 
