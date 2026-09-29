@@ -1,11 +1,11 @@
 name: Build
 
 on:
-  push:
-    branches: [ develop, master ]
+  workflow_dispatch:
   pull_request:
-    branches: [ develop, master ]
-
+    branches: [ main ]
+  push:
+    branches: [ main ]
 jobs:
   build:
     name: PHP ${{ matrix.name }}
@@ -51,11 +51,47 @@ jobs:
             composer_update_flags: '--prefer-lowest --prefer-stable'
             php_ini: 'xdebug.coverage_enable=On'
             name: 'PHP 8.1 with lowest stable deps'
+          - php: 8.2
+            allow_fail: true
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.2 with latest deps'
+          - php: 8.2
+            allow_fail: true
+            composer_update_flags: '--prefer-lowest --prefer-stable'
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.2 with lowest stable deps'
+          - php: 8.3
+            allow_fail: true
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.3 with latest deps'
+          - php: 8.3
+            allow_fail: true
+            composer_update_flags: '--prefer-lowest --prefer-stable'
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.3 with lowest stable deps'
+          - php: 8.4
+            allow_fail: true
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.4 with latest deps'
+          - php: 8.4
+            allow_fail: true
+            composer_update_flags: '--prefer-lowest --prefer-stable'
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.4 with lowest stable deps'
+          - php: 8.5
+            allow_fail: true
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.5 with latest deps'
+          - php: 8.5
+            allow_fail: true
+            composer_update_flags: '--prefer-lowest --prefer-stable'
+            php_ini: 'xdebug.coverage_enable=On'
+            name: 'PHP 8.5 with lowest stable deps'
 
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Validate composer.json and composer.lock
         run: composer validate
